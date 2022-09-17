@@ -1,0 +1,67 @@
+
+body
+{
+    background-image: url(background_2.jpg);
+}
+.barberia {
+
+    margin-top: 0%;
+    font-family: 'Bangers', cursive;
+    text-shadow: 23%;
+    text-align: center;
+    background-color: rgb(160, 113, 160);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    letter-spacing: 1.3rem;
+    
+    font-weight: bold;
+    margin-block-end: -0.1%;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+i.fa-brands.fa-facebook.fa-2xl
+{
+    color:blue;
+}
+i.fa-brands.fa-instagram.fa-2xl
+{
+    color:#D6635B;
+}
+
+
+.d-block.w-100
+{
+    height: 25rem;
+    width: 60%;
+    margin-top: 10%;
+}
+.barb
+{
+    text-align: center;
+    font-family: cursive;
+}
+
+.accordion-header
+{
+    text-align: center;
+}
+#footer
+{
+    text-decoration: red;
+}
+
+
